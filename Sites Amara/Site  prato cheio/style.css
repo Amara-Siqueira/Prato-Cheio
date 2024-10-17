@@ -1,0 +1,97 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family:'Butchery';
+    src: url(font/Butchery.ttf) format(truetype);
+}
+
+*{
+    margin: 0px;
+    
+}
+
+
+
+header{
+padding: 30px;
+background-image: url(Imagem/Comida.jpg);
+background-position: center;
+background-size:cover;
+background-repeat: no-repeat;
+box-shadow: 2px 6px 16px black;
+}
+h1{
+        color:rgb(218, 117, 45);
+        font-family: "Butchery",serif ;
+        font-weight: 100;
+        font-style: italic;
+        font-size: 40pt;
+    text-align: center;
+}
+.logo{
+position: relative;
+width: 55px;
+float: right;
+
+}
+menu{
+    position:relative;
+    left: -30px;
+    padding: 0px;
+    margin: 0px;
+}
+#icon{
+    left: -30px;
+    top: 30px;
+}
+#icon:hover{
+    cursor: pointer;
+    background-color: #e5833d;
+}
+ul{
+    text-align: left;
+    }
+li{
+    padding: 5px;
+    list-style-type: none;
+}
+a{
+
+    color: black;
+    text-decoration: none;
+}
+#menu{
+    display:none;
+}
+#menu1{
+    display: none;
+}
+.btn-receita{
+
+    border: 0px;
+    background-color: transparent;
+}
+.cozinhando{
+    width: 100%;
+    box-shadow: 1px 4px 20px black;
+}
+main{
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+   font-size:14pt;
+   font-family: "Poppins", serif;
+}
+footer{
+    padding:10px;
+    text-align: center;
+    color:white;
+    background-color: black;
+}
+h2{
+    font-family: "Butchery",serif ;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30pt;
+    padding: 10px;
+}
